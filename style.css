@@ -19,7 +19,74 @@
     padding-top: 2vh;
 }
 .navbarEle{
-    color: rgb(0, 255, 55);
+    color: white;
     cursor: pointer;
+}
+.navbarEle:hover{
+    color: rgb(8, 226, 8);
+    border-bottom: 2px solid rgb(163, 50, 50);
+    transition: 0.5s,1s;
+}
+#name{
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 20vh;
+    color: rgb(41, 1, 67);
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    list-style: none;
+}
+ul li img{
+    width: 30px;
+    height: 30x;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    display: flex;
+    margin-top: -20vh;
+    position: relative;
+    z-index:1;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.heading img{
+    width: 5rem;
+    height: 5rem;
+}
+.heading span{
+    font-size: 3rem;
+}
+.skills{
+    height: 45vh;
+}
+.skill{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
     
+}
+.skill_{
+    width: 6rem;
+    height: 1.5rem;
+    background-color: blanchedalmond;
+    border: 1px solid green;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 8px;
 }
