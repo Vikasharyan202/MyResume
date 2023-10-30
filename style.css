@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.home{
+    height: 65vh;
+    background-image: url(Image/work_table.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.7;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2vw;
+    padding-top: 2vh;
+}
+.navbarEle{
+    color: rgb(0, 255, 55);
+    cursor: pointer;
+    
+}
