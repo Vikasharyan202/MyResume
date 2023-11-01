@@ -18,11 +18,13 @@
     gap: 2vw;
     padding-top: 2vh;
 }
-.navbarEle{
+.navbarEle a{
+    font-size: 1.5rem;
     color: white;
     cursor: pointer;
+    text-decoration: none;
 }
-.navbarEle:hover{
+.navbarEle a:hover{
     color: rgb(8, 226, 8);
     border-bottom: 2px solid rgb(163, 50, 50);
     transition: 0.5s,1s;
@@ -71,6 +73,7 @@ ul li img{
 .heading span{
     font-size: 3rem;
 }
+/* Skills section */
 .skills{
     height: 45vh;
 }
@@ -89,4 +92,62 @@ ul li img{
     text-align: center;
     border-radius: 20px;
     padding-top: 8px;
+}
+
+/* Education section */
+.education{
+    height: 80vh;
+}
+.timeline{
+    position: relative;
+    width: 75%;
+    height: 60vh;
+    /* border: 1px solid black; */
+    left: 12%;
+    top: 2vh;
+}
+
+.timeline_box{
+    position: relative;
+    width: 40%;
+    height: 23%;
+    /* border: 2px solid black; */
+}
+.timeline_box:nth-child(2n){
+    left: 60%;
+}
+.timeline_divider{
+    width: 0;
+    height: 43vh;
+    position: absolute;
+    border: 3px dashed rgb(212, 214, 212);
+    top: 5%;
+    left: 50%;
+}
+.timeline_mover {
+    margin-left: -1rem;
+    position: sticky;
+    top: 5%;
+}
+.timeline_mover img{
+    width: 30px;
+}
+.aboutEduc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutEduc img{
+    width: 40px;
+    height: 40px;
+}
+
+/* Portfolio section */
+.portfolio{
+    /* height: 75vh; */
+}
+
+/* Contact section */
+.contact{
+    /* height: 75vh; */
 }
