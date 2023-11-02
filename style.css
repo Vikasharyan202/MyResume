@@ -149,5 +149,45 @@ ul li img{
 
 /* Contact section */
 .contact{
-    /* height: 75vh; */
+    background-image:linear-gradient(rgb(144, 66, 66),rgb(29, 112, 29));
+}
+.contact_details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 4vh;
+    margin-left: 10vw;
+    gap: 20%;
+}
+.details>form{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.information{
+    max-width: 30%;
+    
+}
+input, textarea{
+    
+}
+.btn{
+
+}
+.help{
+    margin: 10px 0;
+}
+.help p{
+    margin: 5px 0;
+}
+.address{
+    margin: 10px 0;
+}
+.ads{
+    /* margin: 10px; */
+}
+.ads img{
+    width: 20px;
+    height: 20px;
+    /* margin: 0 30px; */
 }
